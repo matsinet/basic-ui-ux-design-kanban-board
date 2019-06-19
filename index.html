@@ -1,0 +1,745 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Basic UI/UX and more Planning</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black-board.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="theme-font-sketch theme-color-black-blue" style="width: 100%; height: 100%;">
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <div class="sl-block" data-block-type="text"
+                     style="width: 1120px; left: 80px; top: 216px; height: auto;">
+                    <div class="sl-block-content" style="text-align: left; z-index: 10;">
+                        <h1>Basic UX/UI Design...</h1>
+                        <h1 style="text-align:right">and Kanban Board Creation</h1>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text"
+                     style="height: auto; width: 1120px; left: 80px; top: 529px;">
+                    <div class="sl-block-content" style="z-index: 11; text-align: right;">
+                        <h3 style="text-align:center">Basic web design and creating a Kanban board with stories &amp; tasks</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="stack">
+                <section>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 298px; left: 80px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10; text-align: left;">
+                            <h2>Design</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 778px; left: 422px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11; text-align: right;">
+                            <h2>...your Web Application</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="height: auto; width: 1120px; left: 80px; top: 99px;">
+                        <div class="sl-block-content" style="z-index: 12; text-align: left;" dir="ui">
+                            <p style="text-align:justify">
+                                <span style="font-size:42px">User Experience (UX)</span>
+                            </p>
+                            <ul>
+                                <li style="text-align:justify" class="fragment">Keep it INTUITIVE
+                                    <ul>
+                                        <li style="text-align:justify">Navigation should be obvious</li>
+                                    </ul>
+                                </li>
+                                <li style="text-align:justify" class="fragment">Make it consistent
+                                    <ul>
+                                        <li style="text-align:justify">Follow the "standard" for interactions a.k.a clicking a hamburger icon (<i class="bars icon"></i>) should open the navigation and arrows (<i class="chevron left icon"></i>,<i class="chevron right icon"></i>) should open drawers.</li>
+                                        <li style="text-align:justify">Keep interactions the same across the application</li>
+                                    </ul>
+                                </li>
+                                <li style="text-align:justify" class="fragment">Allow users to make errors by handling errors gracefully a.k.a form validation</li>
+                                <li style="text-align:justify" class="fragment">Accessibility
+                                    <!-- <ul>
+                                        <li style="text-align:justify">Make your site available for all levels of capability</li>
+                                    </ul> -->
+                                </li>
+                            </ul>
+                            <div class="fragment">
+                                <p style="text-align:justify">
+                                    <span style="font-size:1.0em">Resources</span>
+                                </p>
+                                <ul>
+                                    <li style="text-align:justify">
+                                        <span style="font-size:0.9em"></span>https://usabilla.com/blog/fundamental-concepts-ux/
+                                        <span style="font-size:0.9em"></span>
+                                    </li>
+                                    <li style="text-align:justify">
+                                        <span style="font-size:0.9em">https://careerfoundry.com/en/blog/ux-design/5-key-principles-for-new-ux-designers/</span>
+                                    </li>
+                                    <li style="text-align:justify">
+                                        <span style="font-size:0.9em">https://www.mockplus.com/blog/post/interaction-design-principles</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 298px; left: 80px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10; text-align: left;">
+                            <h2>Design</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 778px; left: 422px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11; text-align: right;">
+                            <h2>...your Web Application</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="height: auto; width: 1120px; left: 80px; top: 111px;">
+                        <div class="sl-block-content" style="z-index: 12; text-align: left;" dir="ui">
+                            <p style="text-align:justify">
+                                <span style="font-size:1.4em; color:rgb(255, 255, 255); text-align:justify">User Interface (UI)</span>
+                            </p>
+                            <ul>
+                                <li style="text-align:justify">Responsive Design or Mobile First
+                                    <ul>
+                                        <li style="text-align:justify" class="fragment">Rearrange (stack) elements on
+                                            narrow screen
+                                        </li>
+                                        <li style="text-align:justify" class="fragment">Hide and/or show different
+                                            elements based on screen size
+                                        </li>
+                                        <li style="text-align:justify" class="fragment">Adjust font sizes</li>
+                                        <li style="text-align:justify" class="fragment">Resources
+                                            <ul>
+                                                <li style="text-align:justify">
+                                                    https://darwindigital.com/mobile-first-versus-responsive-web-design/
+                                                </li>
+                                                <li style="text-align:justify">
+                                                    https://www.smashingmagazine.com/2017/02/mobile-first-is-just-not-good-enough-meet-journey-driven-design/
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 298px; left: 80px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10; text-align: left;">
+                            <h2>Design</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 778px; left: 422px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11; text-align: right;">
+                            <h2>...your Web Application</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="height: auto; width: 1120px; left: 80px; top: 111px;">
+                        <div class="sl-block-content" style="z-index: 12; text-align: left;" dir="ui">
+                            <p style="text-align:justify">
+                                <span style="font-size:1.4em">
+                                    <span style="color:rgb(255, 255, 255); text-align:justify">User Interface (UI)</span>
+                                </span>
+                            </p>
+                            <ul>
+                                <li style="text-align:justify">Fonts &amp; Icons
+                                    <ul>
+                                        <li style="text-align:justify">Find alternate fonts for logos &amp; headers</li>
+                                        <li style="text-align:justify">Use icons where appropriate</li>
+                                        <li style="text-align:justify">Resources
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        <span>https://fonts.google.com/</span>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <span>https://material.io/tools/icons</span>
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <span>https://fontawesome.com/</span>
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="fragment">
+                                    <p>
+                                        <span style="color:rgb(255, 255, 255); text-align:justify">Images</span>
+                                    </p>
+                                    <ul>
+                                        <li style="text-align:justify">Need to be your originals, Creative Commons or
+                                            Public Domain
+                                        </li>
+                                        <li style="text-align:justify">Resources
+                                            <ul>
+                                                <li>
+                                                    <p>https://www.pexels.com/</p>
+                                                </li>
+                                                <li>
+                                                    <p>https://unsplash.com/creative-commons-images</p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 298px; left: 80px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10; text-align: left;">
+                            <h2>Design</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 778px; left: 422px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11; text-align: right;">
+                            <h2>...your Web Application</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="height: auto; width: 1120px; left: 80px; top: 100px;">
+                        <div class="sl-block-content" style="z-index: 12; text-align: left;" dir="ui">
+                            <p style="text-align:justify">
+                                <span style="font-size:1.4em">
+                                    <span style="color:rgb(255, 255, 255); text-align:justify">User Interface (UI)</span>
+                                </span>
+                            </p>
+                            <ul>
+                                <li style="text-align:justify">
+                                    <span>
+                                        <span>​Color &amp; Contrast</span>
+                                    </span>
+                                    <ul>
+                                        <li style="text-align:justify">Pick a color palette</li>
+                                        <li style="text-align:justify">Keep accessibility in mind
+
+                                            <ul>
+                                                <li style="text-align:justify">Visually impaired &amp; colorblind</li>
+                                            </ul>
+                                        </li>
+                                        <li style="text-align:justify">Resources
+                                            <ul>
+                                                <li>https://coolors.co</li>
+						<!--<li>http://paletton.com</li>-->
+                                                <li>https://randoma11y.com/</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li style="text-align:justify" class="fragment">
+                                    <span>
+                                        <span>Animations</span>
+                                    </span>
+                                    <ul>
+                                        <li style="text-align:justify">
+                                            <span>
+                                                <span>​Resouces</span>
+                                            </span>
+                                            <ul>
+                                                <li style="text-align:justify">
+                                                    <span>
+                                                        <span>​</span>
+                                                    </span>https://css-tricks.com/video-screencasts/97-intro-to-css-animations/
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li style="text-align:justify" class="fragment">
+                                    <span>
+                                        <span>​Navigation</span>
+                                    </span>
+                                    <ul>
+                                        <li style="text-align:justify">
+                                            <span>
+                                                <span>​Again... it should be Intuitive</span>
+                                            </span>
+                                            <span>
+                                                <span>​</span>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+		    <aside class="notes">
+			<p>Alternate color resource: http://paletton.com</p>
+		    </aside>
+                </section>
+            </section>
+            <section>
+                <div class="sl-block" data-block-type="text" style="width: 298px; left: 80px; top: 35px; height: auto;">
+                    <div class="sl-block-content" style="z-index: 10; text-align: left;">
+                        <h2>Define</h2>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text"
+                     style="width: 778px; left: 422px; top: 35px; height: auto;">
+                    <div class="sl-block-content" style="z-index: 11; text-align: right;">
+                        <h2>...your Timeline</h2>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text"
+                     style="height: auto; width: 1120px; left: 80px; top: 109px;">
+                    <div class="sl-block-content" style="z-index: 12; text-align: left;" dir="ui">
+                        <p style="text-align:justify">
+                            <span style="font-size:42px">How much time do you have to complete your project?</span>
+                        </p>
+                        <ul>
+                            <li style="text-align:justify">
+                                <span>
+                                    <span>​Estimate the amount of time on a daily/weekly basis</span>
+                                </span>
+                                <ul>
+                                    <li style="text-align:justify">
+                                        <span>
+                                            <span>​Approximately 2 hours/day, 5 days/week for 4 weeks = 40 hours</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li style="text-align:justify">This number is used to estimate completion of the project on
+                                time.
+                            </li>
+                            <li style="text-align:justify">
+                                Plan to complete your project including testing the week before demo day so you can fine
+                                tune & polish the leeway, plus it gives you some padding on your estimates.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="stack">
+                <section>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 298px; left: 80px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10; text-align: left;">
+                            <h2>Create</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 778px; left: 422px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11; text-align: right;">
+                            <h2>...your Kanban Board</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="height: auto; width: 1120px; left: 80px; top: 107px;">
+                        <div class="sl-block-content" style="z-index: 14; text-align: left;" dir="ui">
+                            <p style="text-align:justify">
+                                <span style="font-size:42px">Trello.com</span>
+                            </p>
+                            <ul>
+                                <li style="text-align:justify">
+                                    <span>​Create an account on trello.com</span>
+                                </li>
+                                <li style="text-align:justify" class="fragment">
+                                    <span>
+                                        <span>Create a board</span>
+                                    </span>
+                                    <ul>
+                                        <li style="text-align:justify">
+                                            <span>​Name the board something meaningful regarding your project</span>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li style="text-align:justify" class="fragment">Share your board with teachers and
+                                    mentors
+                                </li>
+                                <li style="text-align:justify" class="fragment">Create swim lanes
+
+                                    <ul>
+                                        <li style="text-align:justify">Back log
+
+                                            <ul>
+                                                <li style="text-align:justify">Brainstorm and story writing</li>
+                                            </ul>
+                                        </li>
+                                        <li style="text-align:justify">Ready for development
+
+                                            <ul>
+                                                <li style="text-align:justify">Story writing completed, full details and
+                                                    acceptance criteria
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li style="text-align:justify">In Progress/Development
+                                            <ul>
+                                                <li style="text-align:justify">Stories currently being worked (should be
+                                                    limited to 1 or 2)
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li style="text-align:justify">Completed</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 298px; left: 80px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10; text-align: left;">
+                            <h2>Create</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 778px; left: 422px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11; text-align: right;">
+                            <h2>...your Stories</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="height: auto; width: 1120px; left: 80px; top: 109px;">
+                        <div class="sl-block-content" style="z-index: 12; text-align: left;" dir="ui">
+                            <ul>
+                                <li style="text-align:justify">Create stories
+                                    <ul>
+                                        <li style="text-align:justify">Steps:
+                                            <ul>
+                                                <li style="text-align:justify">Define definition of done
+                                                    <ul>
+                                                        <li style="text-align:justify">“As a [persona], I [want to], [so
+                                                            that].”
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li style="text-align:justify">Prioritize</li>
+                                                <li style="text-align:justify">
+                                                    <span style="color:rgb(255, 255, 255); text-align:justify">Estimate</span>
+                                                </li>
+                                                <li style="text-align:justify">Minimum Viable Product or Optional</li>
+                                                <li style="text-align:justify">Resources
+
+                                                    <ul>
+                                                        <li style="text-align:justify">
+                                                            https://www.atlassian.com/agile/project-management/user-stories
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li style="text-align:justify">Stories are NOT tasks, they are definition of a
+                                            feature
+                                            <ul>
+                                                <li style="text-align:justify">You should task out each story, that
+                                                    become development "chunks"
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 298px; left: 80px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10; text-align: left;">
+                            <h2>Create</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="width: 778px; left: 422px; top: 35px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11; text-align: right;">
+                            <h2>...your Stories</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                         style="height: auto; width: 1120px; left: 80px; top: 109px;">
+                        <div class="sl-block-content" style="z-index: 12; text-align: left;" dir="ui">
+                            <ul>
+                                <li style="text-align:justify">Create tasks
+                                    <ul>
+                                        <li style="text-align:justify">Steps
+                                            <ul>
+                                                <li style="text-align:justify">Define tasks required to fulfill the
+                                                    definition of done
+                                                </li>
+                                                <li style="text-align:justify" class="fragment">Prioritize</li>
+                                                <li style="text-align:justify" class="fragment">Estimate/Time Box
+                                                    <ul>
+                                                        <li style="text-align:justify">​​Keep in mind your total time
+                                                            line estimate. Plan to finish a week early.
+                                                        </li>
+                                                        <li style="text-align:justify">
+                                                            <span>For new tasks, multiply estimate by 1.5 or 2</span>
+                                                        </li>
+                                                        <li style="text-align:justify">Time boxing, determine the max
+                                                            time to spend on an optional feature
+                                                            <ul>
+                                                                <li style="text-align:justify">
+                                                                    ​Once that time is met, stop work on it and
+                                                                    reevaluate
+                                                                </li>
+                                                                <li style="text-align:justify">Resource
+                                                                    <ul>
+                                                                        <li style="text-align:justify">
+                                                                            ​https://www.agilealliance.org/glossary/timebox
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="fragment">
+                                <p style="text-align:justify">Other options besides Trello</p>
+                                <ul>
+                                    <li style="text-align:left">Gitlab.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <div class="sl-block" data-block-type="text" style="width: 298px; left: 80px; top: 35px; height: auto;">
+                    <div class="sl-block-content" style="z-index: 10; text-align: left;">
+                        <h2>Develop</h2>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text"
+                     style="width: 778px; left: 422px; top: 35px; height: auto;">
+                    <div class="sl-block-content" style="z-index: 11; text-align: right;">
+                        <h2>...your Web Application</h2>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text"
+                     style="height: auto; width: 1120px; left: 80px; top: 109px;">
+                    <div class="sl-block-content" style="z-index: 14; text-align: left;" dir="ui">
+                        <p style="text-align:justify">
+                            <span style="font-size:42px">The FUN part, and why you are here.</span>
+                        </p>
+                        <ul>
+                            <li style="text-align:justify">
+                                Update your kanban board as you start and complete stories and tasks.
+                            </li>
+                            <li style="text-align:justify">
+                                You and others should be able to gauge your completeness by the board status.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="sl-block" data-block-type="text" style="width: 298px; left: 80px; top: 35px; height: auto;">
+                    <div class="sl-block-content" style="z-index: 10; text-align: left;">
+                        <h2>Test</h2>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text"
+                     style="width: 778px; left: 422px; top: 35px; height: auto;">
+                    <div class="sl-block-content" style="z-index: 12; text-align: right;">
+                        <h2>...your Web Application</h2>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text"
+                     style="height: auto; width: 1120px; left: 80px; top: 109px;">
+                    <div class="sl-block-content" style="z-index: 13; text-align: left;" dir="ui">
+                        <p style="text-align:justify">
+                            <span style="font-size:42px">What should be testing?</span>
+                        </p>
+                        <ul>
+                            <li style="text-align:justify">
+                                <span style="font-size:1.0em">Make sure it behaves correctly.</span>
+                            </li>
+                            <li style="text-align:justify">
+                                <span style="font-size:1.0em">Make sure it looks correct.​</span>
+                            </li>
+                        </ul>
+                        <p style="text-align:justify" class="fragment">
+                            <span style="font-size:42px">How should you test?</span>
+                        </p>
+                        <ul>
+                            <li style="text-align:justify" class="fragment">
+                                <span style="color:rgb(255, 255, 255); text-align:justify">Test as stories are completed</span>
+                            </li>
+                            <li style="text-align:justify" class="fragment">
+                                <span style="font-size:1.0em">Test on many devices and resolutions</span>
+                            </li>
+                            <li style="text-align:justify" class="fragment">
+                                <span style="font-size:1.0em">Test in multiple web browsers</span>
+                                <ul>
+                                    <li style="text-align:justify">
+                                        <span style="font-size:1.0em">​Chrome, Safari, Microsoft Edge, if suicidal Internet Explorer</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li style="text-align:justify" class="fragment">
+                                <span style="font-size:1.0em">Have others test</span>
+                                <ul>
+                                    <li style="text-align:justify">
+                                        ​You should observe them testing and listen to their feedback
+                                    </li>
+                                    <li style="text-align:justify">
+                                        Have teacher, mentors, peers, friend (smart &amp; dumb), your kids, your parents
+                                    </li>
+                                </ul>
+                            </li>
+                            <li style="text-align:justify" class="fragment">
+                                <span style="font-size:1.0em">Audit with Lighthouse</span>
+                                <ul>
+                                    <li style="text-align:justify">
+                                        ​https://developers.google.com/web/tools/lighthouse/#devtools
+                                    </li>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text"
+                     style="width: 706px; left: 574px; top: 239px; height: auto;">
+                    <div class="sl-block-content" style="z-index: 14; text-align: left;">
+                        <h2 style="text-align: center;">Test, test and more testing</h2>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="sl-block" data-block-type="text" style="width: 298px; left: 80px; top: 35px; height: auto;">
+                    <div class="sl-block-content" style="z-index: 10; text-align: left;">
+                        <h2>Update</h2>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text"
+                     style="width: 778px; left: 422px; top: 35px; height: auto;">
+                    <div class="sl-block-content" style="z-index: 11; text-align: right;">
+                        <h2>...Documentation</h2>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text"
+                     style="height: auto; width: 1202px; left: 78px; top: 138px;">
+                    <div class="sl-block-content" style="z-index: 12; text-align:left">
+                        <p style="text-align:left">
+                            <span style="font-size:1.2em">Document the entire process of design, development and testing.</span>
+                        </p>
+                        <ul>
+                            <li>Reference your decisions when questions arise.</li>
+                            <li>The documentation will be included in your portfolio, so make it look nice.</li>
+                        </ul>
+                        <p style="margin-top: 2em; font-size: 1.2em;">
+                            Required to complete your homework!
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="sl-block" data-block-type="text"
+                     style="width: 1120px; left: 80px; top: 35px; height: auto;">
+                    <div class="sl-block-content" style="z-index: 10; text-align: left;">
+                        <h2>Homework</h2>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text"
+                     style="height: auto; width: 1120px; left: 80px; top: 144px;">
+                    <div class="sl-block-content" style="z-index: 11; text-align: left;">
+                        <ul>
+                            <li style="text-align:left">
+                                <span style="font-size:1.6em">Design your Web Application</span>
+                                <ul>
+                                    <li style="text-align:left">
+                                        <span style="font-size:1.0em">​Select fonts, images, color scheme, navigation, animation</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li style="text-align:left">
+                                <span style="font-size:1.6em">Define your Time line</span>
+                            </li>
+                            <li style="text-align:left">
+                                <span style="font-size:1.6em">Create your Kanban board</span>
+                                <ul>
+                                    <li style="text-align:left">
+                                        <span style="font-size:1.0em">​Create Stories</span>
+                                    </li>
+                                    <li style="text-align:left">Create Tasks</li>
+                                    <li style="text-align:left">Make Estimates</li>
+                                </ul>
+                            </li>
+                            <li style="text-align:left">
+                                <span style="font-size:1.6em">Start Development</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sl-block" data-block-type="text"
+                     style="height: auto; width: 1200px; left: 40px; top: 648px;">
+                    <div class="sl-block-content" style="z-index: 12;">
+                        <p>Due next week, share the link to the Kanban board with all details in stories and tasks</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+        ],
+        width: 1280,
+        height: 720,
+        transition: "concave",
+        backgroundTransition: "convex",
+        center: false,
+        history: true,
+        progress: true
+    });
+</script>
+</body>
+</html>
